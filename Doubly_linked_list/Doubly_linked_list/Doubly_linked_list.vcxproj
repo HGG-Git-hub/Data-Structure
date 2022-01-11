@@ -142,7 +142,12 @@
     <ClInclude Include="双链表习题.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="双链表创建.cpp" />
+    <ClCompile Include="双链表习题.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="双链表创建.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

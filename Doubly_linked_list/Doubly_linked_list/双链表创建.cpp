@@ -42,8 +42,6 @@ int main()
 	std::ios::sync_with_stdio(false);
 
 
-
-
 	system("pause");
 	return 0;
 };
