@@ -18,9 +18,15 @@
     <ClInclude Include="数组模拟栈.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="表达式求值.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="数组.cpp">
+    <ClCompile Include="数组模拟栈.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="表达式求值.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

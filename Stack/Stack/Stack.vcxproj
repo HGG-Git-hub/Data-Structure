@@ -140,9 +140,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="数组模拟栈.h" />
+    <ClInclude Include="表达式求值.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="数组.cpp" />
+    <ClCompile Include="数组模拟栈.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="表达式求值.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
