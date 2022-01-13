@@ -142,7 +142,11 @@
     <ClInclude Include="数组模拟队列.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="数组模拟队列.cpp" />
+    <ClCompile Include="单调队列.h" />
+    <ClCompile Include="单队-滑动窗口.cpp" />
+    <ClCompile Include="数组模拟队列.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
