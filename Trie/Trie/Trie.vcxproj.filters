@@ -18,9 +18,18 @@
     <ClInclude Include="字符串统计.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="最大异或对.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="字符串统计.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="最大异或对.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="源.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

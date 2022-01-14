@@ -26,7 +26,6 @@ void insert(char str[])
 	}
 	cnt[p]++;//以当前结点结尾的单词加一
 }
-
 //查询操作
 int query(char str[]) 
 {
