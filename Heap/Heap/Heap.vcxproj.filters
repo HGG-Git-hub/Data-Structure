@@ -18,9 +18,15 @@
     <ClInclude Include="堆排序.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="模拟堆.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="堆排序.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="模拟堆.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

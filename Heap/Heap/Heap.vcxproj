@@ -140,9 +140,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="堆排序.h" />
+    <ClInclude Include="模拟堆.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="堆排序.cpp" />
+    <ClCompile Include="堆排序.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="模拟堆.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
