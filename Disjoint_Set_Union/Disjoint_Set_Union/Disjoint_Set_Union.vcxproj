@@ -140,12 +140,20 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="合并集合.h" />
+    <ClInclude Include="连通块中点的数量.h" />
+    <ClInclude Include="食物链.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="合并集合.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="源.cpp" />
+    <ClCompile Include="源.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="连通块中点的数量.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="食物链.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

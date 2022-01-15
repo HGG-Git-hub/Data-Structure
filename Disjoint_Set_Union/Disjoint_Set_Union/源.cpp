@@ -8,5 +8,6 @@ int main()
 	a = b;
 	cout << a << endl;
 	cout << b;
+
 	return 0;
 };

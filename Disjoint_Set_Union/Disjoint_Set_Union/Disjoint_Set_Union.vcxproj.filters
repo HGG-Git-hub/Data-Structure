@@ -18,12 +18,24 @@
     <ClInclude Include="合并集合.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="连通块中点的数量.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="食物链.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="合并集合.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="源.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="连通块中点的数量.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="食物链.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
