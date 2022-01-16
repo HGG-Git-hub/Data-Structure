@@ -139,10 +139,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="字符串哈希.h" />
     <ClInclude Include="模拟散列表.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="模拟-寻址法.cpp" />
+    <ClCompile Include="字符串哈希.cpp" />
+    <ClCompile Include="模拟-寻址法.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="模拟-拉链法.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>

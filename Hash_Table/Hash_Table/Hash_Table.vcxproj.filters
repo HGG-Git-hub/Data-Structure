@@ -18,6 +18,9 @@
     <ClInclude Include="模拟散列表.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="字符串哈希.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="模拟-拉链法.cpp">
@@ -27,6 +30,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="模拟-寻址法.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="字符串哈希.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
